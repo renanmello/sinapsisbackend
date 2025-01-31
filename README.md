@@ -18,7 +18,7 @@ Javadoc generation for automatic code documentation
 
 Clone the repository:
 ```
-git clone https://github.com/seu-usuario/spring-backend.git
+git clone https://github.com/renanmello/sinapsisbackend.git
 ```
 Navigate to the folder:
 ```
