@@ -16,34 +16,37 @@ Javadoc generation for automatic code documentation
 
 📌 Back-end Installation and Execution
 
-Clone the repository::
-
+Clone the repository:
+```
 git clone https://github.com/seu-usuario/spring-backend.git
+```
+Navigate to the folder:
+```
 cd spring-backend
-
+```
 Create and Configure the database in the .env file:
-
+```
 DATABASE_NAME="Your_database_name"
 DATABASE_USERNAME="Your_user_name"
 DATABASE_PASSWORD="Your_Password"
-
+```
 Configure the database in application.properties
-
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/${DATABASE_NAME}
 spring.datasource.username=${DATABASE_USERNAME}
 spring.datasource.password=${DATABASE_PASSWORD}
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
-
+```
 Compile and run the project using Maven:
-
+```
 mvn clean install
 mvn spring-boot:run
-
+```
 The API will be running on:
-
+```
 http://localhost:8080
-
+```
 🔒 Security and Testing
 
 The backend relies on Spring Security for authentication and access control.
