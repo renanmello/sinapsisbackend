@@ -53,3 +53,9 @@ The backend relies on Spring Security for authentication and access control.
 
 Unit tests were implemented using JUnit 5 and Mockito for services and repositories.
 
+Contact
+
+If you have any questions or suggestions, feel free to open an issue or get in touch!
+
+🚀 Developed by Renan Pereira Mello.
+
